@@ -1,2 +1,5 @@
 # Mac
 *.DS_Store
+
+# Original CSV (For Copyright)
+data.csv
