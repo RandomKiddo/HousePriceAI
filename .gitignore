@@ -3,3 +3,6 @@
 
 # Original CSV (For Copyright)
 data.csv
+
+# Jupyter Notebooks
+*.ipynb_checkpoints/
