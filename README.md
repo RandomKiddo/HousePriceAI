@@ -16,4 +16,4 @@ ___
 
 [Back to Top](#house-price-ai)
 
-<sub>This page was last edited on 11.07.2022</sub>
+<sub>This page was last edited on 11.08.2022</sub>
