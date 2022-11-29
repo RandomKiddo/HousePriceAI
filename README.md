@@ -18,24 +18,23 @@ ___
 
 #### Business understanding - What does the business need?
 
-The realastate business that needs to set house prices would need a way to automatically
- determine the prices of a house based on certain characteristics.
+The real estate business that needs to set house prices would need a way to automatically determine the prices of a house based on certain characteristics. This model could also be used to help predict house prices as the house changes (i.e. gets renovated, other house prices change, etc.).
 
 #### Data understanding - What data do we have / need? Is it clean?
 
-The data we have is taken from Kaggle. It has sqft information, amount of rooms, square feet living area, the condition it is in, and the location it is in
+The data we have is taken from Kaggle. It has various sqft information, amount of rooms, condition information, and positional data (i.e. location).
 
 #### Data preparation - How do we organize the data for modeling?
 
-The plan for cleaning this data is to drop data that didn't have a price attached to it, for missing values we filled with the median since there were so few. Then we dropped any duplicate data values.
+The plan for cleaning this data was to drop data that didn't have a price attached to it. For missing values, we filled the gaps with the median since there were so few. Then we dropped any duplicate data values.
 
 #### Modeling - What modeling techniques should we apply?
 
-First the dataset 
+With the prepared data set, we decided on a regression technique, due to a price being a predicted value, rather then us classifying houses. From there, we chose a `KNeighborsRegressor` model, since our data had a lot of values, and was rather complicated, so we could not assume a linear model. A radius regression technique was not chosen, in order to conserve time, and to reduce the risk of no points falling in a given radius, due to the amount of variables we were testing with.  
 
 #### Evaluation - Which model best meets the business objectives?
 
-Something goes here that needs someone smart
+Our model with 3 nearest neighbors out-performed the other models. The KNN regression technique was superior, due to similar houses having similar prices in the real world. Although not shown in our project files, linear regression models tended to have a much worse performance and r<sup>2</sup> value (with many far below `.50` in the `.20` to `.40` range). Therefore, to reach the business model, our best performing AI should be selected.
 
 #### Deployment - How do stakeholders access the results?
 
