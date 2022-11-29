@@ -27,4 +27,6 @@ The realastate business that needs to set house prices would need a way to autom
 
 The data we have is taken from Kaggle. It has sqft information, amount of rooms, square feet living area, the condition it is in, and the location it is in
 
+#### Modeling - What modeling techniques should we apply?
 
+First the dataset 
