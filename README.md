@@ -14,9 +14,7 @@ Additionally, we would like to thank all officers of AI Club: Fall 2022 for supp
 
 ___
 
-[Back to Top](#house-price-ai)
-
-<sub>This page was last edited on 11.08.2022</sub>
+### CRISP-DM
 
 #### Business understanding - What does the business need?
 
@@ -42,3 +40,21 @@ Something goes here that needs someone smart
 #### Deployment - How do stakeholders access the results?
 
 This notebook, the results, and the model will be posted on Github. 
+
+___
+
+### Final Thoughts
+
+The main purpose of this project was to learn how to build an AI model, and hopefully build a successful one. With an r<sup>2</sup> of `0.9999968`, it is safe to say that we succeeded in creating a highly accurate model (with the sample data). Of course, this data has not been tested for rigidity in comparison to other data sets, so we cannot say that this model is accurate for all housing markets. 
+
+The model functioned very accurately, which is a definite positive of the project. One downside of our model is that it factors in location-based data values. However, some of these data values are rather arbitrary, such as zip code or street name (streed id). This decreases the ruggedness of our model, and we could've created a more applicable model by dropping arbitrary data values. 
+
+We learned, through this project, how to prepare a data set, and eventually create an AI model through the data. From this, we can work on creating more advanced and applicable AI models, and expand our horizons past regression models and onto classification models.
+
+___
+
+[Back to Top](#house-price-ai)
+
+<sub>This page was last edited on 11.28.2022</sub>
+
+
