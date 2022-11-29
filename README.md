@@ -20,5 +20,11 @@ ___
 
 #### Business understanding - What does the business need?
 
-The realastate business that needs to set house prices would need a way to automatically determine the prices of a house based on certain characteristics.
+The realastate business that needs to set house prices would need a way to automatically
+ determine the prices of a house based on certain characteristics.
+
+#### Data understanding - What data do we have / need? Is it clean?
+
+The data we have is taken from Kaggle. It has sqft information, amount of rooms, square feet living area, the condition it is in, and the location it is in
+
 
