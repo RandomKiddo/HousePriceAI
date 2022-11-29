@@ -14,6 +14,9 @@ Additionally, we would like to thank all officers of AI Club: Fall 2022 for supp
 
 ___
 
+[Back to Top](#house-price-ai)
+
+<sub>This page was last edited on 11.08.2022</sub>
 
 #### Business understanding - What does the business need?
 
@@ -24,13 +27,15 @@ The realastate business that needs to set house prices would need a way to autom
 
 The data we have is taken from Kaggle. It has sqft information, amount of rooms, square feet living area, the condition it is in, and the location it is in
 
-___
+#### Data preparation - How do we organize the data for modeling?
+
+The plan for cleaning this data is to drop data that didn't have a price attached to it, for missing values we filled with the median since there were so few. Then we dropped any duplicate data values.
 
 #### Modeling - What modeling techniques should we apply?
 
 First the dataset 
 
-[Back to Top](#house-price-ai)
+#### Evaluation - Which model best meets the business objectives?
 
-<sub>This page was last edited on 11.28.2022</sub>
+Something goes here that needs someone smart
 
