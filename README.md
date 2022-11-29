@@ -16,15 +16,15 @@ ___
 
 ### CRISP-DM
 
-#### Business understanding - What does the business need?
+#### Business Understanding - What does the business need?
 
 The real estate business that needs to set house prices would need a way to automatically determine the prices of a house based on certain characteristics. This model could also be used to help predict house prices as the house changes (i.e. gets renovated, other house prices change, etc.).
 
-#### Data understanding - What data do we have / need? Is it clean?
+#### Data Understanding - What data do we have / need? Is it clean?
 
 The data we have is taken from Kaggle. It has various sqft information, amount of rooms, condition information, and positional data (i.e. location).
 
-#### Data preparation - How do we organize the data for modeling?
+#### Data Preparation - How do we organize the data for modeling?
 
 The plan for cleaning this data was to drop data that didn't have a price attached to it. For missing values, we filled the gaps with the median since there were so few. Then we dropped any duplicate data values.
 
