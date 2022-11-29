@@ -17,3 +17,8 @@ ___
 [Back to Top](#house-price-ai)
 
 <sub>This page was last edited on 11.08.2022</sub>
+
+#### Business understanding - What does the business need?
+
+The realastate business that needs to set house prices would need a way to automatically determine the prices of a house based on certain characteristics.
+
