@@ -39,3 +39,6 @@ First the dataset
 
 Something goes here that needs someone smart
 
+#### Deployment - How do stakeholders access the results?
+
+This notebook, the results, and the model will be posted on Github. 
