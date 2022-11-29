@@ -26,6 +26,11 @@ The data we have is taken from Kaggle. It has sqft information, amount of rooms,
 
 ___
 
+#### Modeling - What modeling techniques should we apply?
+
+First the dataset 
+
 [Back to Top](#house-price-ai)
 
 <sub>This page was last edited on 11.28.2022</sub>
+
